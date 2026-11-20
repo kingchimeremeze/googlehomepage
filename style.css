@@ -1,0 +1,114 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #202124;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding-top: 34px;
+}
+
+h1 {
+    font-size: 84px;
+    font-weight: normal;
+    margin: 0 0 30px;
+    letter-spacing: -2px;
+}
+
+/* SEARCH BOX */
+
+.search-box {
+    width: 688px;
+    max-width: calc(100% - 64px);
+    height: 52px;
+    margin: 0 auto;
+    padding: 0 12px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    border-radius: 30px;
+}
+
+.search-box input {
+    flex: 1;
+    height: 35px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+
+.search-box span {
+    color: #e8eaed;
+    font-size: 20px;
+}
+
+.search-box button {
+    background-color: #5f6368;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 13px;
+}
+
+/* GOOGLE BUTTONS */
+
+.buttons {
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.buttons button {
+    background-color: #303134;
+    color: #e8eaed;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 17px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    height: 37px;
+    cursor: pointer;
+}
+
+/* LANGUAGE LINKS */
+
+p {
+    margin-top: 47px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #e8eaed;
+}
+
+p a {
+    color: #8ab4f8;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 3px;
+}
+.mic-icon,
+.camera-icon {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: #e8eaed;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    cursor: pointer;
+    flex-shrink: 0;
+}
